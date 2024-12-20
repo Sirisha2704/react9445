@@ -21,7 +21,7 @@ function App() {
       <Router>
       
         <Routes>
-          <Route path="/"element={<Login />} />
+          <Route path="/react9445"element={<Login />} />
           <Route path="/signup" element={<Signup/>} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path='/coffee' element={<Coffee />} />

@@ -21,7 +21,7 @@ function Dashboard() {
   const handleLogout = () => {
     // Clear user data from localStorage
     localStorage.removeItem('user'); // Remove user data or token from storage
-    navigate('/login'); // Redirect to login page after logout
+    navigate('/react9445'); // Redirect to login page after logout
   };
 
   // Define the menu items and their corresponding routes
@@ -43,7 +43,7 @@ function Dashboard() {
         right: "20px",
         zIndex: "1000",
       }}>
-        <Link to={"/"}>
+        <Link to={"/react9445"}>
         <Button
           variant="danger"
           onClick={handleLogout}
